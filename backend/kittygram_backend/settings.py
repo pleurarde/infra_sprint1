@@ -8,10 +8,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-if os.getenv('DEBUG') == 'False':
-    DEBUG = False
-else:
-    DEBUG = True
+DEBUG = False
+
 ALLOWED_HOSTS = (os.getenv('ALLOWED_HOSTS')).split(', ')
 
 INSTALLED_APPS = [
