@@ -1,0 +1,6 @@
+IP: 158.160.68.223;
+name_taski: https://dailytasks.hopto.org/;
+name_kittygram: https://katy-kittegramm.hopto.org/;
+login: admin;
+password: admin;
+
